@@ -1,0 +1,16 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/ubuntu/MyDataSets/ua_coco/train
+val: /home/ubuntu/MyDataSets/ua_coco/val
+test: /home/ubuntu/MyDataSets/ua_coco/test
+
+# number of classes
+nc: 12
+
+# class names
+names: ['blue_car_1', 'blue_car_2',
+        'red_car_1', 'red_car_2',
+        'gray_car_1', 'gray_car_2',
+        'blue_armor_1', 'blue_armor_2',
+        'red_armor_1', 'red_armor_2',
+        'gray_armor_1', 'gray_armor_2'
+        ]

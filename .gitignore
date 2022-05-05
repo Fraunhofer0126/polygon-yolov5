@@ -3,3 +3,4 @@ myModels/
 runs/
 __pycache__/
 *.ipynb
+wandb/
